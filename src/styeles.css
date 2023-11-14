@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"); 
+ 
+* { 
+  margin: 0; 
+  padding: 0; 
+  list-style: none; 
+  text-decoration: none; 
+  box-sizing: border-box; 
+} 
+
+body { 
+    background-image: url("https://codeinstages.github.io/drone/bg.png"); 
+    background-size: 100% center; 
+    background-repeat: no-repeat; 
+  } 
+
+  body { 
+    background-image: url("https://codeinstages.github.io/drone/bg.png"); 
+    background-size: 100% center; 
+    background-repeat: no-repeat; 
+  } 
+
+  .navLinks { 
+    display: flex; 
+    align-items: center; 
+    gap: 100px; 
+  } 
+  
+  .navLinks li a { 
+    color: #fff; 
+    text-align: center; 
+    font-family: "Poppins"; 
+    font-size: 18px; 
+    font-weight: 500; 
+    transition: 0.3s; 
+  } 
+ 
+  .navLinks li a:hover { 
+    color: #1abc9c; 
+  } 
+
+  main { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 16px; 
+  } 
+
+  .mainTitle { 
+    color: #fff; 
+    text-align: center; 
+    font-family: "Poppins"; 
+    font-size: 36px; 
+    font-weight: 500; 
+  } 
+ 
+  .mainDescription { 
+    color: #969696; 
+    text-align: center; 
+    font-family: "Poppins"; 
+    font-size: 18px; 
+    font-weight: 300; 
+  } 
+
+  .button { 
+    background: #2e4dec; 
+    border-radius: 30px; 
+    color: #fff; 
+    text-align: center; 
+    font-family: "Poppins"; 
+    font-size: 18px; 
+    font-weight: 600; 
+    padding: 11px 58px; 
+    width: 200px; 
+    height: 50px; 
+    transition: 0.3s; 
+  } 
+   
+  .button:hover { 
+    background-color: #1abc9c; 
+  } 
